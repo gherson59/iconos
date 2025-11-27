@@ -15,8 +15,8 @@
      rx="10"
      ry="10"
      style="
-        fill:param(fill) #f0f0f0;      /* Parámetro de Relleno para QGIS */
-        stroke:param(outline) #333333;  /* Parámetro de Contorno para QGIS */
+        fill:param(color_relleno) #f0f0f0;  /* Parámetro de Relleno principal */
+        stroke:param(color_contorno) #333333; /* Parámetro de Contorno */
         stroke-width:5;
      " />
      
@@ -28,7 +28,7 @@
      rx="5"
      ry="5"
      style="
-        fill:param(fill) #cccccc;
+        fill:param(color_relleno) #cccccc;
         stroke:none;
      " />
 
@@ -38,7 +38,7 @@
      r="20"
      style="
         fill:white;
-        stroke:param(outline) #007bff;
+        stroke:param(color_contorno) #007bff; /* Usa el color de Contorno principal */
         stroke-width:2;
      " />
 
@@ -48,7 +48,7 @@
      x2="68"
      y2="40"
      style="
-        stroke:param(aguja) #ff0000;   /* Parámetro de Aguja para QGIS */
+        stroke:param(color_aguja) #ff0000;   /* Nuevo parámetro: color_aguja */
         stroke-width:3;
         stroke-linecap:round;
      " />
