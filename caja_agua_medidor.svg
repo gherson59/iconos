@@ -1,59 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   version="1.1"
-   xmlns="http://www.w3.org/2000/svg"
-   width="100%"
-   height="100%"
-   viewBox="0 0 100 100">
-
-  <rect
-     x="10"
-     y="10"
-     width="80"
-     height="80"
-     rx="10"
-     ry="10"
-     fill="param(fill) #f0f0f0" 
-     stroke="param(outline) #333333"
-     stroke-width="5"
-  />
-     
-  <rect
-     x="15"
-     y="15"
-     width="70"
-     height="70"
-     rx="5"
-     ry="5"
-     fill="param(fill) #cccccc"
-     stroke="none"
-  />
-
-  <circle
-     cx="50"
-     cy="50"
-     r="20"
-     fill="#ffffff"
-     stroke="param(outline) #007bff"
-     stroke-width="2"
-  />
-
-  <line
-     x1="50"
-     y1="50"
-     x2="68"
-     y2="40"
-     stroke="param(aguja) #ff0000"
-     stroke-width="3"
-     stroke-linecap="round"
-  />
-
-  <circle
-     cx="50"
-     cy="50"
-     r="3"
-     fill="#333333"
-     stroke="none"
-  />
-     
+<svg width="100" height="100" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect x="10" y="10" width="80" height="80" rx="10" ry="10" fill="param(fill) #999999" stroke="param(outline) #000000" stroke-width="5" />
+    <rect x="15" y="15" width="70" height="70" rx="5" ry="5" fill="param(fill) #CCCCCC" stroke="none" />
+    <circle cx="50" cy="50" r="20" fill="#ffffff" stroke="param(outline) #000000" stroke-width="2" />
+    <line x1="50" y1="50" x2="68" y2="40" stroke="param(aguja) #ff0000" stroke-width="3" stroke-linecap="round" />
+    <circle cx="50" cy="50" r="3" fill="#333333" stroke="none" />
+  </g>
 </svg>
