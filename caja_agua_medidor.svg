@@ -15,8 +15,8 @@
      rx="10"
      ry="10"
      style="
-        fill:param(fill) #f0f0f0;
-        stroke:param(outline) #333333;
+        fill:param(fill) #f0f0f0;      /* Parámetro de Relleno para QGIS */
+        stroke:param(outline) #333333;  /* Parámetro de Contorno para QGIS */
         stroke-width:5;
      " />
      
@@ -48,7 +48,7 @@
      x2="68"
      y2="40"
      style="
-        stroke:param(aguja) #ff0000;
+        stroke:param(aguja) #ff0000;   /* Parámetro de Aguja para QGIS */
         stroke-width:3;
         stroke-linecap:round;
      " />
