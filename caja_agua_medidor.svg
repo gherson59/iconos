@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
@@ -15,8 +14,8 @@
      rx="10"
      ry="10"
      style="
-        fill:param(color_relleno) #f0f0f0;  /* Parámetro de Relleno principal */
-        stroke:param(color_contorno) #333333; /* Parámetro de Contorno */
+        fill:param(color_relleno) #AAAAAA;  /* Gris por defecto */
+        stroke:param(color_contorno) #333333; /* Negro por defecto */
         stroke-width:5;
      " />
      
@@ -28,7 +27,7 @@
      rx="5"
      ry="5"
      style="
-        fill:param(color_relleno) #cccccc;
+        fill:param(color_relleno) #CCCCCC;
         stroke:none;
      " />
 
@@ -38,7 +37,7 @@
      r="20"
      style="
         fill:white;
-        stroke:param(color_contorno) #007bff; /* Usa el color de Contorno principal */
+        stroke:param(color_contorno) #007bff;
         stroke-width:2;
      " />
 
@@ -48,7 +47,7 @@
      x2="68"
      y2="40"
      style="
-        stroke:param(color_aguja) #ff0000;   /* Nuevo parámetro: color_aguja */
+        stroke:param(color_aguja) #FF0000;   /* Rojo por defecto */
         stroke-width:3;
         stroke-linecap:round;
      " />
