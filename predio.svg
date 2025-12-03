@@ -1,11 +1,9 @@
 <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  
   <g>
-    <circle cx="32" cy="32" r="32" fill="param(outline) #dce0dd" stroke="none"/>
+    <circle cx="32" cy="32" r="32" fill="param(outline)" stroke="none"/>
   </g>
 
   <g>
-    <path d="M32 12L14 30H20V50H44V30H50L32 12ZM38 50H26V36H38V50Z" fill="param(fill) #008000" stroke="none"/>
+    <path d="M32 12L14 30H20V50H44V30H50L32 12ZM38 50H26V36H38V50Z" fill="param(fill)" stroke="none"/>
   </g>
-
 </svg>
