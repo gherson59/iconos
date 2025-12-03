@@ -1,8 +1,9 @@
-<svg width="64px" height="64px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <circle cx="32" cy="32" r="32" fill="#dce0dd"/>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="fondo-circulo">
+    <circle cx="32" cy="32" r="32" fill="param(outline) #e0e0e0" stroke="none"/>
   </g>
-  <g>
-    <path d="M32 12L14 30H20V50H44V30H50L32 12ZM38 50H26V36H38V50Z" fill="#008000"/>
+
+  <g id="icono-casa">
+    <path d="M32 12L14 30H20V50H44V30H50L32 12ZM38 50H26V36H38V50Z" fill="param(fill) #008000" stroke="none"/>
   </g>
 </svg>
