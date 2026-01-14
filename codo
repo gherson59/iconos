@@ -1,0 +1,6 @@
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12 52 L12 24 A 16 16 0 0 1 28 8 L52 8 L52 24 L32 24 A 4 4 0 0 0 28 28 L28 52 Z" 
+        fill="param(fill)" 
+        stroke="param(outline)" 
+        stroke-width="2"/>
+</svg>
